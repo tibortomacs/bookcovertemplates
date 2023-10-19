@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book cover templates in LaTeX</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  font: 20px 'Philosopher', sans-serif;
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 16px 'Philosopher', sans-serif;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 170px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid blue;
+}
+
+.button1:hover {
+  background-color: blue;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid green;
+}
+
+.button3:hover {
+  background-color: green;
+  color: white;
+}
+
+img {
+  margin: 0 0 10px 0;
+  border: 1px solid black;
+  width: 900px;
+  box-shadow: 3px 3px 8px black;
+}
+
+td {
+  padding: 0 30px 0 0; 
+  margin: 0;
+}
+
+tr {
+  vertical-align: top; 
+  padding: 0; 
+  margin: 0;
+}
+
+table {
+  padding: 0; 
+  margin: 0
+}
+
+#logo {
+  width: 350px;
+}
+
+</style>
+<base target="_blank">
+</head>
+<body>
+
+<img alt="book cover logo" id="logo" src="logo.png"/>
+
+<h1>Book cover templates in LaTeX with the bookcover document class</h1>
+
+<p>The <tt>bookcover</tt> LaTeX document class can be used to create dust jackets and book covers of hardcover and paperback books (see in <a href="https://www.ctan.org/pkg/bookcover">CTAN</a>).</p>
+
+<p>If you would like to share your custom book cover template, you can submit it to the email address in the <a href="http://mirrors.ctan.org/macros/latex/contrib/bookcover/bookcover.pdf">user guide</a> of the <tt>bookcover</tt> document class.</p>
+
+<!-- bookcover-template1 -->
+<h2>A dust jacket</h2>
+<p>by Tibor Tómács</p>
+<table><tr><td>
+<img alt="book cover" src="bookcover-template1.png"/>
+</td><td>
+<a href="bookcover-template1.zip"><button class="button button1">Download source</button></a><br>
+<a href="bookcover-template1.pdf"><button class="button button2">Download PDF</button></a><br>
+<a href="https://www.overleaf.com/docs?snip_uri=https://tibortomacs.github.io/bookcovertemplates/bookcover-template1.zip"><button class="button button3">Open in Overleaf</button></a>
+</td></tr></table>
+
+<!-- bookcover-template2 -->
+<h2>A two-sided book cover</h2>
+<p>by Tibor Tómács</p>
+<table><tr><td>
+<img alt="book cover" title="OUTSIDE" src="bookcover-template2-1.png"/><br>
+<img alt="book cover" title="INSIDE" src="bookcover-template2-2.png"/>
+</td><td>
+<a href="bookcover-template2.zip"><button class="button button1">Download source</button></a><br>
+<a href="bookcover-template2.pdf"><button class="button button2">Download PDF</button></a><br>
+<a href="https://www.overleaf.com/docs?snip_uri=https://tibortomacs.github.io/bookcovertemplates/bookcover-template2.zip"><button class="button button3">Open in Overleaf</button></a>
+</td></tr></table>
+
+<!-- bookcover-template3 -->
+<h2>A book cover with folding margin for hardcover book</h2>
+<p>by Tibor Tómács</p>
+<table><tr><td>
+<img alt="book cover" src="bookcover-template3.png"/>
+</td><td>
+<a href="bookcover-template3.zip"><button class="button button1">Download source</button></a><br>
+<a href="bookcover-template3.pdf"><button class="button button2">Download PDF</button></a><br>
+<a href="https://www.overleaf.com/docs?snip_uri=https://tibortomacs.github.io/bookcovertemplates/bookcover-template3.zip"><button class="button button3">Open in Overleaf</button></a>
+</td></tr></table>
+
+<!-- bookcover-template4 -->
+<h2>A book cover with barcode and QR code</h2>
+<p>by Tibor Tómács</p>
+<table><tr><td>
+<img alt="book cover" src="bookcover-template4.png"/>
+</td><td>
+<a href="bookcover-template4.zip"><button class="button button1">Download source</button></a><br>
+<a href="bookcover-template4.pdf"><button class="button button2">Download PDF</button></a><br>
+<a href="https://www.overleaf.com/docs?snip_uri=https://tibortomacs.github.io/bookcovertemplates/bookcover-template4.zip"><button class="button button3">Open in Overleaf</button></a>
+</td></tr></table>
+
+</body>
+</html>
