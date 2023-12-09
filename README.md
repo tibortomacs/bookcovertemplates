@@ -1,4 +1,4 @@
-<img src="logo.png" width="400">
+<img src="logo.png" width="350">
 
 # Book cover templates in LaTeX with the bookcover document class
 
